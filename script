@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "************************Compile************************"
+make -s
+echo "*********************Compile done!*********************"
+echo "copy to /mnt/hgfs/H/miqt" 
+#cp FK701S /mnt/hgfs/H/miqt/FK701S para copiar en la sd
+cp FK701S /mnt/hgfs/comparitdoubuntu
+
